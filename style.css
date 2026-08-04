@@ -109,19 +109,24 @@ margin:20px 0;
 
 .buttons{
 
-margin-top:30px;
-
+ margin-top:30px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content:center; /* centers nicely on mobile since .hero-text is text-align:center there */
 }
+
 
 .btn{
 
 padding:15px 40px;
-background:#00ffe7;
-color:black;
-text-decoration:none;
-border-radius:40px;
-font-weight:bold;
-margin-right:20px;
+  background:#00ffe7;
+  color:black;
+  text-decoration:none;
+  border-radius:40px;
+  font-weight:bold;
+  /* remove margin-r
+
 
 }
 
@@ -132,13 +137,12 @@ background:white;
 }
 
 .btn2{
-
-padding:15px 40px;
-border:2px solid #00ffe7;
-color:white;
-text-decoration:none;
-border-radius:40px;
-
+  padding:15px 40px;
+  border:2px solid #00ffe7;
+  color:white;
+  text-decoration:none;
+  border-radius:40px;
+  /* no changes needed here besides removing reliance on margin */
 }
 
 .btn2:hover{
@@ -326,6 +330,16 @@ nav ul{
 
 margin-top:20px;
 
+}
+    @media(max-width:480px){
+  .buttons{
+    flex-direction:column;
+    align-items:center;
+  }
+  .btn, .btn2{
+    width:80%;
+    text-align:center;
+  }
 }
 }
 .page-title{
