@@ -71,7 +71,8 @@ nav ul li a:hover{
 color:#00ffe7;
 
 }
-
+@media(max-width:768px)
+{
 .hero{
 
 display:flex;
@@ -156,7 +157,7 @@ border:8px solid #00ffe7;
 box-shadow:0 0 50px cyan;
 
 }
-
+}
 section{
 
 padding:100px 8%;
