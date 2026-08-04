@@ -1,5 +1,7 @@
 const text = [
+    "Fullstack Developer",
     "Frontend Developer",
+    "Backend Developer"
     "Django Developer",
     "UI Designer"
 ];
