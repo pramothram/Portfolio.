@@ -131,9 +131,7 @@ padding:15px 40px;
 }
 
 .btn:hover{
-
 background:white;
-
 }
 
 .btn2{
@@ -142,7 +140,6 @@ background:white;
   color:white;
   text-decoration:none;
   border-radius:40px;
-  /* no changes needed here besides removing reliance on margin */
 }
 
 .btn2:hover{
