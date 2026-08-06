@@ -81,6 +81,11 @@ color:#00ffe7;
     width:220px;              /* your 300px is still large for small phones */
     margin-bottom:25px;
   }
+  .hero-text{
+
+max-width:600px;
+
+}
 
   .hero h1{
     font-size:36px;           /* 45px is still huge on narrow screens */
@@ -94,11 +99,7 @@ color:#00ffe7;
     font-size:15px;
   }
 }
-.hero-text{
 
-max-width:600px;
-
-}
 .buttons{
 
  margin-top:30px;
