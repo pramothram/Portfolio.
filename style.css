@@ -22,7 +22,7 @@ color:white;
 100%{background-position:0%;}
 
 }
-@media screen and (max-width:900px){
+
 nav{
 
 display:flex;
@@ -163,7 +163,7 @@ color:#00ffe7;
 transition:.3s;
 
 }
-}
+
 .hero-image img{
     width:420px;
     max-width:100%;
