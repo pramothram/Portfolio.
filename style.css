@@ -279,27 +279,7 @@ padding:30px;
 
 }
 
-@media(max-width:900px){
 
-.hero{
-
-flex-direction:column-reverse;
-text-align:center;
-
-}
-
-.hero-image img{
-
-width:300px;
-margin-bottom:40px;
-
-}
-
-.hero h1{
-
-font-size:45px;
-
-}
 
 nav{
 
