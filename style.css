@@ -345,6 +345,15 @@ flex-direction:column;
 nav ul{
 
 margin-top:20px;
+flex-wrap:wrap;
+justify-content:center;
+gap:12px 20px;
+
+}
+
+nav ul li{
+
+margin-left:0;
 
 }
 
