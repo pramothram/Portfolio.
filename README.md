@@ -50,24 +50,6 @@ portfolio/
 └── README.md
 ```
 
-## 🚀 How to Run the Project
-
-1. Clone the repository:
-
-```bash
-git clone <your-repository-url>
-```
-
-2. Open the project folder:
-
-```bash
-cd portfolio
-```
-
-3. Open the project in Visual Studio Code.
-
-4. Run the `index.html` file using a browser or the **Live Server** extension.
-
 ## 🎯 Purpose
 
 The main purpose of this project is to build a professional online presence and showcase my web development skills and projects to recruiters, companies, and potential clients.
